@@ -1,3 +1,51 @@
 body {
-  color: blue;
+  background-color: #dee4e7;
+}
+.header {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 6px lightgray;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo {
+  color: #040d5a;
+  font-family: "Alata", sans-serif;
+  font-size: 42px;
+  flex: 1;
+}
+.nav-options {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 40%;
+}
+.info-tab {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  font-size: 16px;
+  margin: 0px 10px;
+  font-family: "Poppins", sans-serif;
+}
+.options {
+  display: flex;
+  justify-content: center;
+}
+.option {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
