@@ -123,6 +123,7 @@ a {
 .invitees-row {
   display: flex;
   margin-top: 10px;
+  margin-bottom: 40px;
 }
 .invitee {
   padding: 10px;
@@ -147,4 +148,9 @@ a {
   font-family: "Poppins", sans-serif;
   margin: 2px 0px;
   font-size: 18px;
+}
+/*GLIMPSES*/
+.glimpse {
+  height: 300px;
+  width: 300px;
 }
