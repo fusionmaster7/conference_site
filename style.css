@@ -164,3 +164,19 @@ a {
   height: 300px;
   width: 300px;
 }
+
+/*FOOTER BEGIN*/
+
+.wave-txt {
+  margin-top: -50px;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  font-family: "Secular One", sans-serif;
+}
+
+.heart {
+  color: #040d5a;
+  font-size: 30px;
+}
+/*FOOTER END*/
