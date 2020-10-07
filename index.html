@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>I3SC-2021</title>
+    <title>I3CS-2021</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
@@ -25,19 +25,19 @@
   <body>
     <!--HEADER BEGIN-->
     <div class="header">
-      <div class="logo">Logo Here</div>
+      <div class="logo">I3CS 2021</div>
       <div class="nav-options">
         <div class="info-tab">
-          <div class="info"><a>Info 1</a></div>
-          <div class="info"><a>Info 2</a></div>
-          <div class="info"><a>Info 3</a></div>
+          <div class="info"><a>Contact Us</a></div>
         </div>
         <div class="options">
-          <div class="option"><a id="op">Option 1</a></div>
-          <div class="option"><a id="op">Option 2</a></div>
-          <div class="option"><a id="op">Option 3</a></div>
-          <div class="option"><a id="op">Option 4</a></div>
-          <div class="option"><a id="op">Option 5</a></div>
+          <div class="option"><a id="op" href="/">Home</a></div>
+          <div class="option"><a id="op" href="#inv">Committee</a></div>
+          <div class="option"><a id="op">Keynote</a></div>
+          <div class="option"><a id="op">Key Info</a></div>
+          <div class="option">
+            <a id="op" href="/pages/tracks.html">Tracks</a>
+          </div>
         </div>
       </div>
     </div>
@@ -93,25 +93,8 @@
       </div>
       <!--INTRO END-->
 
-      <!--PARTNERS BEGIN-->
-      <!--<div class="sponsors">
-        <div class="sponsor">
-          Partner 1 <br /><img src="./assets/sponsor.png" />
-        </div>
-        <div class="sponsor">
-          Partner 2 <br /><img src="./assets/sponsor.png" />
-        </div>
-        <div class="sponsor">
-          Partner 3 <br /><img src="./assets/sponsor.png" />
-        </div>
-        <div class="sponsor">
-          Partner 4 <br /><img src="./assets/sponsor.png" />
-        </div>
-      </div>-->
-      <!--PARTNERS END-->
-
       <!--ORGANISERS BEGIN-->
-      <div class="heading-container">
+      <div class="heading-container" id="org">
         <div class="heading">Organisers</div>
         <hr class="sep" />
       </div>
@@ -145,7 +128,7 @@
       <!--ORGANISERS END-->
 
       <!--PATRONS BEGIN-->
-      <div class="heading-container">
+      <div class="heading-container" id="pat">
         <div class="heading">Patrons</div>
         <hr class="sep" />
       </div>
@@ -176,8 +159,8 @@
       <!--PATRONS END-->
 
       <!--INVITEES BEGIN-->
-      <div class="heading-container">
-        <div class="heading">Invitees</div>
+      <div class="heading-container" id="inv">
+        <div class="heading">Committee</div>
         <hr class="sep" />
       </div>
       <div class="invitees-row">
@@ -204,38 +187,41 @@
       </div>
       <!--INVITEES END-->
 
-      <!--GLIMPSES BEGIN-->
-      <div class="heading-container">
-        <div class="heading">Glimpses of previous events</div>
+      <!--TRACKS BEGIN-->
+      <div class="heading-container" id="tr">
+        <div class="heading">Tracks</div>
         <hr class="sep" />
       </div>
       <div class="invitees-row">
         <div class="invitee">
-          <img
-            class="invitee-img glimpse"
-            src="https://via.placeholder.com/400"
-          />
+          <img class="invitee-img" src="./assets/computing.jpg" />
+          <div class="invitee-name track">
+            <a href="/pages/tracks.html#comp" id="op">Computing</a>
+          </div>
         </div>
         <div class="invitee">
-          <img
-            class="invitee-img glimpse"
-            src="https://via.placeholder.com/400"
-          />
+          <img class="invitee-img track" src="./assets/communication.jpg" />
+          <div class="invitee-name track">
+            <a href="/pages/tracks.html#comm" id="op">Communication</a>
+          </div>
         </div>
         <div class="invitee">
-          <img
-            class="invitee-img glimpse"
-            src="https://via.placeholder.com/400"
-          />
+          <img class="invitee-img track" src="./assets//security.jpeg" />
+          <div class="invitee-name track">
+            <a href="/pages/tracks.html#sec" id="op">Security</a>
+          </div>
         </div>
         <div class="invitee">
-          <img
-            class="invitee-img glimpse"
-            src="https://via.placeholder.com/400"
-          />
+          <img class="invitee-img track" src="./assets//vlsi.jpeg" />
+          <div class="invitee-name track">
+            <a href="/pages/tracks.html#vlsi" id="op">
+              VLSI Design and<br />
+              Material Science</a
+            >
+          </div>
         </div>
       </div>
-      <!--GLIMPSES END-->
+      <!--TRACKS END-->
     </div>
 
     <div class="waves">
