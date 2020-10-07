@@ -159,10 +159,12 @@ a {
   margin: 2px 0px;
   font-size: 18px;
 }
-/*GLIMPSES*/
-.glimpse {
-  height: 300px;
-  width: 300px;
+
+/*TRACKS*/
+.track {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 10px;
 }
 
 /*FOOTER BEGIN*/
