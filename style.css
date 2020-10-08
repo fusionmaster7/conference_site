@@ -167,6 +167,69 @@ a {
   margin-top: 10px;
 }
 
+/*ABOUT AND CONTACT*/
+.about-container {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: flex-start;
+  background-color: #040d5a;
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.about-title {
+  font-family: "Alata", sans-serif;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.about {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 0px;
+}
+
+.contact {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.contact > .invitee-name {
+  font-size: 30px;
+}
+
+.contact > .invitee-desc {
+  font-size: 24px;
+}
+
+/*KEY DATES*/
+li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
 /*FOOTER BEGIN*/
 
 .wave-txt {
