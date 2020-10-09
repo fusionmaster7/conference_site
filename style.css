@@ -160,6 +160,35 @@ a {
   font-size: 18px;
 }
 
+.view-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.more {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.view-link {
+  font-size: 20px;
+  color: #fa5dbb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.more:hover {
+  background-color: #fa5dbb;
+  transform: scale(1.05);
+}
+
+.more:hover > .view-link {
+  color: white;
+}
 /*TRACKS*/
 .track {
   text-align: center;
