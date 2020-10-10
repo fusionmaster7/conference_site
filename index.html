@@ -21,6 +21,10 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js">
+   </script>
+  
   </head>
   <body>
     <!--HEADER BEGIN-->
@@ -95,6 +99,10 @@
       </div>
       <!--INTRO END-->
 
+    <!-- AOS initialisation-->
+     <script>
+   AOS.init();
+   </script>
       <!--ORGANISERS BEGIN-->
       <div class="heading-container" id="org">
         <div class="heading">Organisers</div>
@@ -134,8 +142,9 @@
         <div class="heading">Patrons</div>
         <hr class="sep" />
       </div>
-      <div class="sponsors">
-        <div class="sponsor">
+      <div class="sponsors" >
+        <div class="sponsor" data-aos="flip-right"
+     data-aos-duration="2000">
           <img class="sponsor-img" src="./assets/director.jpg" />
           <div class="invitee-name">Chief Patron</div>
           <div class="invitee-desc">
@@ -143,14 +152,16 @@
             Director, NIT Kurukshetra
           </div>
         </div>
-        <div class="sponsor">
+        <div class="sponsor" data-aos="flip-right"
+     data-aos-duration="2000">
           <img class="sponsor-img" src="./assets/mdave.jpg" />
           <div class="invitee-name">Dr. Mayank Dave</div>
           <div class="invitee-desc">
             HOD, COE Department<br />NIT Kurukshetra
           </div>
         </div>
-        <div class="sponsor">
+        <div class="sponsor" data-aos="flip-right"
+     data-aos-duration="2000">
           <img class="sponsor-img" src="./assets/np.jpg" />
           <div class="invitee-name">Dr. NP Singh</div>
           <div class="invitee-desc">
@@ -298,7 +309,7 @@
     <div class="waves">
       <img clas="wave-img" src="./assets/wave.svg" />
       <div class="wave-txt">
-        <!--Cooked with <span class="heart"> &#10084;</span> by gawds-->
+      <!-- Cooked with <span class="heart"> &#10084;</span> by gawds-->
       </div>
     </div>
 
