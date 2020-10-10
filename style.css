@@ -75,6 +75,7 @@ a {
 .container {
   display: flex;
   flex-direction: column;
+  text-align: justify;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 40px;
@@ -121,8 +122,8 @@ a {
 }
 
 .sponsor-img {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -145,8 +146,8 @@ a {
 .invitee-img {
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
 }
 .invitee-name {
   font-family: "Alata", sans-serif;
