@@ -1,164 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
     <title>I3CS-2021</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js">
-   </script>
-  
   </head>
   <body>
-    <!--HEADER BEGIN-->
-    <div class="header">
-      <div class="logo">I3CS 2021</div>
-      <div class="nav-options">
-        <div class="options">
-          <div class="option"><a id="op" href="/">Home</a></div>
-          <div class="option">
-            <a id="op" href="./pages/committee.html">Committee</a>
-          </div>
-          <div class="option"><a id="op" href="#info">Key Info</a></div>
-          <div class="option">
-            <a id="op" href="/pages/tracks.html">Tracks</a>
-          </div>
-          <div class="option"><a id="op" href="/pages/about.html">About Us</a></div>
-          <div class="option"><a id="op" href="/pages/about.html">Contact Us</a></div>
-        </div>
-      </div>
-    </div>
-    <!--HEADER END-->
+    <nav class="navbar navbar-container navbar-expand-lg navbar-light navbar-inverse">
+      <a class="navbar-brand text-light" href="#"><h2>I3CS-2021</h4></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!--SLIDESHOW BEGIN-->
-    <div class="slideshow single-item">
-      <div class="slide-container">
-        <img
-          class="slide"
-          width="800px"
-          height="400px"
-          src="./assets/nit.jpeg"
-        />
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-light"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Committee
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Organising Committee</a>
+              <a class="dropdown-item" href="#">Advisory Committee</a>
+              <a class="dropdown-item" href="#">Student Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Publication</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-light"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Author's Section
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Call for Papers</a>
+              <a class="dropdown-item" href="#">Paper Submissions</a>
+              <a class="dropdown-item" href="#">Tracks</a> 
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Key Dates</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-light"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">About Kurukshetra</a>
+              <a class="dropdown-item" href="#">About NIT Kurukshetra</a>
+              <a class="dropdown-item" href="#">About ECE and CS Departments</a>
+          </li>
+        </ul>
       </div>
-      <div class="slide-container">
-        <img
-          class="slide"
-          width="800px"
-          height="400px"
-          src="./assets/nit2.jpg"
-        />
-      </div>
-      <div class="slide-container">
-        <img
-          class="slide"
-          width="800px"
-          height="400px"
-          src="./assets/bms.jpg"
-        />
-      </div>
-    </div>
-    <!--SLIDESHOW END-->
-
-    <hr class="container-sep" />
-    <div class="container">
-      <!--INTRO BEGIN-->
-      <div class="heading-container">
-        <div class="heading">
-          International Conference on Advances in Computing, Communication and
-          Security, 2021
-        </div>
-        <hr class="sep" />
-      </div>
-      <div class="content">
-        The theme of the conference is &quot;Embracing Innovations&quot; for the
-        secure Next Generation Computing and Communication Systems. The fast
-        pace of advancing technologies and growing expectations of the next
-        generation means that the researchers must continuously reinvent
-        themselves through new investigations and development of the new
-        products. Honestly embracing innovations and new ideas can help break
-        down the organizational barriers and bring researchers together across
-        the various disciplines.<br />
-        <br />
-        The aim of this conference on Advances in Computing, Communication and
-        Security (I3CS-2021) is to bring leading academicians, industrialists,
-        government standard organizations, scientists, research scholars, UG/PG
-        students on the same platform to present their work, discuss and accept
-        the innovations for the implementation of secure next generation
-        computing and communication systems.
-      </div>
-      <!--INTRO END-->
-
-    <!-- AOS initialisation-->
-     <script>
-   AOS.init();
-   </script>
-    </div>
-
-
-    <hr class="container-sep" />
-    <div class="container">
-      <div class="heading-container">
-        <div class="heading" id="info">Key Dates</div>
-      </div>
-      <ul>
-        <li>Submission Deadline: 15 January 2021</li>
-        <li>Acceptance: 28 February 2021</li>
-        <li>Registration: 30 March 2021</li>
-      </ul>
-      <div class="heading-container">
-        <div class="heading">Registration Fees</div>
-      </div>
-      <ul>
-        <li>&#x20B9; 10,000 for Indian Nationals</li>
-        <li>$250 for Foreign Nationals</li>
-      </ul>
-    </div>
-    <br />
-    <hr class="container-sep" />
-
-    <div class="waves">
-      <img clas="wave-img" src="./assets/wave.svg" />
-      <div class="wave-txt">
-      <!-- Cooked with <span class="heart"> &#10084;</span> by gawds-->
-      </div>
+    </nav>
+    <div class=" bg-overlay heading-container">
+      <p class="text-center intro-heading">I3CS-2021</p>
+      <p class="text-center intro-subtext">1<sup>st</sup> International Conference on Advances in Computing, Communication and Security, 2021</p>
     </div>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://code.jquery.com/jquery-migrate-3.3.1.min.js"
-      integrity="sha256-APllMc0V4lf/Rb5Cz4idWUCYlBDG3b0EcN1Ushd3hpE="
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
       crossorigin="anonymous"
     ></script>
     <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"
-      integrity="sha512-LfB+BcvR3zBt7ebVskhSWiSbEUiG3p5EcCprkieldsKhBeR6wpnLi0VpWC2GNgVGWP2n/skO8Bx2oKNjUhXCkw=="
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

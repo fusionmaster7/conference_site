@@ -1,199 +1,31 @@
-body {
-  background-color: #dee4e7;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500&display=swap");
+
 /*HEADER*/
-.header {
-  display: flex;
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 8px 8px 6px lightgray;
+.navbar-container {
+  background-color: rgba(0, 0, 0, 0.75);
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+
+.bg-overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/header-bg.jpg");
+  background-size: cover;
+  height: 800px;
 }
-.logo {
-  color: #040d5a;
-  font-family: "Alata", sans-serif;
-  font-size: 42px;
-  flex: 1;
-}
-.nav-options {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  width: 40%;
-}
-.info-tab {
-  display: flex;
-  justify-content: center;
-}
-.info {
-  font-size: 16px;
-  margin: 0px 10px;
-  font-family: "Poppins", sans-serif;
-}
-.options {
-  display: flex;
-  justify-content: center;
-}
-.option {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-}
-#op {
-  color: #040d5a;
-}
-a {
-  text-decoration: none;
-  color: black;
-}
-/*SLIDESHOW*/
-.slideshow {
-  justify-content: center;
-  display: flex;
-  padding: 3px;
-  margin: 15px;
-}
-.slide {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 3px;
-}
-.container-sep {
-  height: 2px;
-  margin: 5px 0px;
-  border: none;
-  background-color: lightgrey;
-}
-/*CONTENT*/
-.container {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
+
 .heading-container {
-  padding: 0px 3px;
-}
-.heading {
-  font-family: "Alata", sans-serif;
-  font-size: 36px;
-  color: #040d5a;
-}
-.sep {
-  width: 150px;
-  margin-left: 0px;
-  height: 6px;
-  background-color: #fa5dbb;
-  border: none;
-}
-.content {
-  margin-top: 20px;
-  font-family: "Poppins", sans-serif;
-  font-size: 19px;
-}
-
-/*INVITEES*/
-.invitees-row {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-.invitee {
-  padding: 10px;
-  margin-right: 30px;
-  background-color: white;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.invitee-img {
-  margin-left: auto;
-  margin-right: auto;
-  height: 180px;
-  width: 180px;
-}
-.invitee-name {
-  font-family: "Alata", sans-serif;
-  color: #040d5a;
-  font-size: 20px;
-  margin-top: 3px;
-}
-.invitee-desc {
-  font-family: "Poppins", sans-serif;
-  margin: 2px 0px;
-  font-size: 18px;
-}
-
-.view-more {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.more {
-  margin-top: auto;
-  margin-bottom: auto;
-  background-color: white;
-  border-radius: 8px;
-  padding: 10px 15px;
-}
-
-.view-link {
-  font-size: 20px;
-  color: #fa5dbb;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-}
-
-.more:hover {
-  background-color: #fa5dbb;
-  transform: scale(1.05);
-}
-
-.more:hover > .view-link {
+.intro-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 82px;
   color: white;
 }
-/*TRACKS*/
-.track {
-  text-align: center;
-  font-size: 28px;
-  margin-top: 10px;
-}
 
-/*ABOUT AND CONTACT*/
-
-/*KEY DATES*/
-li {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+.intro-subtext {
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
-}
-
-/*FOOTER BEGIN*/
-
-.wave-txt {
-  margin-top: -50px;
-  text-align: center;
-  font-size: 28px;
   color: white;
-  font-family: "Secular One", sans-serif;
 }
-
-.heart {
-  color: #040d5a;
-  font-size: 30px;
-}
-/*FOOTER END*/
