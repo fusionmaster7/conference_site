@@ -44,7 +44,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 #op {
   color: #040d5a;
@@ -95,7 +95,7 @@ a {
 .invitee-heading {
   font-family: "Alata", sans-serif;
   color: white;
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
@@ -126,7 +126,7 @@ a {
   font-family: "Poppins", sans-serif;
   color: #040d5a;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: white;
 }
@@ -153,8 +153,8 @@ a {
 
 .sponsors {
   display: flex;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .sponsor {
   display: flex;
