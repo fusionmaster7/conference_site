@@ -29,3 +29,31 @@
   font-size: 24px;
   color: white;
 }
+
+/*CONTENT*/
+.heading {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.about-heading {
+  font-size: 32px;
+}
+
+.about-content {
+  font-size: 22px;
+}
+
+/*PUBLISHERS*/
+.pub-card {
+  padding: 10px;
+}
