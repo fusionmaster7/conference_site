@@ -1,0 +1,150 @@
+body {
+  background-color: #dee4e7;
+}
+/*HEADER*/
+.header {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 6px lightgray;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo {
+  color: #040d5a;
+  font-family: "Alata", sans-serif;
+  font-size: 42px;
+  flex: 1;
+}
+.nav-options {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 40%;
+}
+.info-tab {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  font-size: 16px;
+  margin: 0px 10px;
+  font-family: "Poppins", sans-serif;
+}
+.options {
+  display: flex;
+  justify-content: center;
+}
+.option {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+#op {
+  color: #040d5a;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-container {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: flex-start;
+  background-color: #040d5a;
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.about-title {
+  font-family: "Alata", sans-serif;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.about {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 0px;
+}
+
+.contact {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.contact > .invitee-name {
+  font-size: 30px;
+}
+
+.contact > .invitee-desc {
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.heading-container {
+  padding: 0px 3px;
+}
+.heading {
+  font-family: "Alata", sans-serif;
+  font-size: 36px;
+  color: #040d5a;
+}
+
+.sep {
+  width: 150px;
+  margin-left: 0px;
+  height: 6px;
+  background-color: #fa5dbb;
+  border: none;
+}
+
+.invitee-name {
+  font-family: "Alata", sans-serif;
+  color: #040d5a;
+  font-size: 20px;
+  margin-top: 3px;
+}
+.invitee-desc {
+  font-family: "Poppins", sans-serif;
+  margin: 2px 0px;
+  font-size: 18px;
+}
