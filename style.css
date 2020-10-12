@@ -5,22 +5,34 @@
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.bg-overlay {
+.home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/header-bg.jpg");
-  background-size: cover;
   height: 800px;
+}
+
+.organisers {
+  background-image: linear-gradient(
+      rgba(255, 0, 153, 0.5),
+      rgba(73, 50, 64, 0.5)
+    ),
+    url("./assets/adcom.jpeg");
+  height: 800px;
+}
+.bg-overlay {
+  background-size: cover;
 }
 
 .heading-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
   justify-content: center;
 }
 
 .intro-heading {
   font-family: "Ubuntu", sans-serif;
-  font-size: 82px;
+  font-size: 72px;
   color: white;
 }
 
@@ -56,4 +68,41 @@
 /*PUBLISHERS*/
 .pub-card {
   padding: 10px;
+}
+
+/*ORGANISERS*/
+.pat-img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.patrons-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.org-img {
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sec-row {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-card {
+  margin: 0px 60px;
+  padding: 10px;
+}
+
+.adv {
+  font-size: 24px;
 }
