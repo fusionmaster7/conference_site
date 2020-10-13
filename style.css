@@ -9,6 +9,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/header-bg.jpg");
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .organisers {
@@ -17,8 +18,10 @@
       rgba(73, 50, 64, 0.5)
     ),
     url("./assets/adcom.jpeg");
-  height: 800px;
+  height: 100vh;
+  background-attachment: fixed;
 }
+
 .bg-overlay {
   background-size: cover;
 }
@@ -172,4 +175,36 @@
 
 .adv {
   font-size: 24px;
+}
+
+/* ABOUT-KURUKSHETRA */
+
+.about-kkr{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/bms.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.kkr-img{
+    display: block;
+    margin: 50px auto;
+}
+
+/* ABOUT-KURUKSHETRA */
+
+.about-nit-kkr{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/nit-kkr.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* ABOUT-KURUKSHETRA */
+
+.about-dept{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/E-Summit.jpg");
+    height: 100vh;
+    background-attachment: fixed;
 }
