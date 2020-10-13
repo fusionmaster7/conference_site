@@ -1,5 +1,5 @@
 if(document.getElementById('countdown')){
-    let destination= new Date("Nov 6, 2020 11:00:00").getTime();
+    let destination= new Date("July 1, 2021 11:00:00").getTime();
                 
     setInterval(function(){
         let now= new Date().getTime();
