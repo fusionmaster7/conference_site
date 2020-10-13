@@ -8,7 +8,7 @@
 .home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/header-bg.jpg");
-  height: 800px;
+  height: 100vh;
 }
 
 .organisers {
@@ -30,6 +30,11 @@
   justify-content: center;
 }
 
+.heading-container h5{
+    color: rgb(6, 212, 6);
+    margin-bottom: 20px;
+}
+
 .intro-heading {
   font-family: "Ubuntu", sans-serif;
   font-size: 72px;
@@ -38,14 +43,48 @@
 
 .intro-subtext {
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   color: white;
+  /* text-transform: uppercase; */
+}
+
+.timer{
+    color: white;
+    text-transform: uppercase;
+}
+
+.start-text{
+    color:white; 
+    background-color:green; 
+    padding:5px 15px;
+    margin-right:10px;
+}
+
+.timer-text{
+    color:white; 
+    font-size:70%
+}
+
+.dates-text{
+    font-size: 120%;
+    margin-top: 60px;
+    color: honeydew;
 }
 
 /*CONTENT*/
 .heading {
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 20px;
+}
+
+.heading::after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
 }
 
 .content {
@@ -66,8 +105,36 @@
 }
 
 /*PUBLISHERS*/
+
+.pub-row{
+    margin-top: 50px;
+}
+
 .pub-card {
   padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* GUEST-EDITORS */
+
+.guest-editors-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.guest-editors-row div{
+    margin-top: 50px;
+}
+
+.editors-img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*ORGANISERS*/
