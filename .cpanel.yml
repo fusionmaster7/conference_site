@@ -10,7 +10,7 @@ deployment:
     - /bin/cp about-dept.html $DEPLOYPATH
     - /bin/cp publication.html $DEPLOYPATH
     - /bin/cp papers.html $DEPLOYPATH
-    - /bin/cp submission.html $DEPLOYPATH
+    - /bin/cp submissions.html $DEPLOYPATH
     - /bin/cp tracks.html $DEPLOYPATH
     - /bin/cp dates.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
