@@ -189,6 +189,8 @@
 .kkr-img {
   display: block;
   margin: 50px auto;
+  width: 300px;
+  height: 300px;
 }
 
 /* ABOUT-KURUKSHETRA */
@@ -207,4 +209,27 @@
     url("./assets/E-Summit.jpg");
   height: 100vh;
   background-attachment: fixed;
+}
+
+/*PUBLICATION PAGE*/
+.pub-content {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.track-topic {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+li {
+  font-size: 18px;
+}
+
+.dates {
+  font-size: 20px;
+}
+
+h4 {
+  font-weight: 700;
 }
