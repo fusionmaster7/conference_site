@@ -233,3 +233,9 @@ li {
 h4 {
   font-weight: 700;
 }
+
+.fixed {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
