@@ -5,6 +5,9 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp advisors.html $DEPLOYPATH
     - /bin/cp organisers.html $DEPLOYPATH
+    - /bin/cp about-kkr.html $DEPLOYPATH
+    - /bin/cp about-nit-kkr.html $DEPLOYPATH
+    - /bin/cp about-dept.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp script.js $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH

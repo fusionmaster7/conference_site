@@ -33,9 +33,9 @@
   justify-content: center;
 }
 
-.heading-container h5{
-    color: rgb(6, 212, 6);
-    margin-bottom: 20px;
+.heading-container h5 {
+  color: rgb(6, 212, 6);
+  margin-bottom: 20px;
 }
 
 .intro-heading {
@@ -51,27 +51,27 @@
   /* text-transform: uppercase; */
 }
 
-.timer{
-    color: white;
-    text-transform: uppercase;
+.timer {
+  color: white;
+  text-transform: uppercase;
 }
 
-.start-text{
-    color:white; 
-    background-color:green; 
-    padding:5px 15px;
-    margin-right:10px;
+.start-text {
+  color: white;
+  background-color: green;
+  padding: 5px 15px;
+  margin-right: 10px;
 }
 
-.timer-text{
-    color:white; 
-    font-size:70%
+.timer-text {
+  color: white;
+  font-size: 70%;
 }
 
-.dates-text{
-    font-size: 120%;
-    margin-top: 60px;
-    color: honeydew;
+.dates-text {
+  font-size: 24px;
+  margin-top: 60px;
+  color: honeydew;
 }
 
 /*CONTENT*/
@@ -80,14 +80,14 @@
   margin-bottom: 20px;
 }
 
-.heading::after{
-    display: block;
-    height: 2px;
-    background-color: #e67e22;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 15px;
+.heading::after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 .content {
@@ -109,8 +109,8 @@
 
 /*PUBLISHERS*/
 
-.pub-row{
-    margin-top: 50px;
+.pub-row {
+  margin-top: 50px;
 }
 
 .pub-card {
@@ -121,23 +121,23 @@
 
 /* GUEST-EDITORS */
 
-.guest-editors-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.guest-editors-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.guest-editors-row div{
-    margin-top: 50px;
+.guest-editors-row div {
+  margin-top: 50px;
 }
 
-.editors-img{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+.editors-img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*ORGANISERS*/
@@ -179,32 +179,32 @@
 
 /* ABOUT-KURUKSHETRA */
 
-.about-kkr{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+.about-kkr {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/bms.jpg");
-    height: 100vh;
-    background-attachment: fixed;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
-.kkr-img{
-    display: block;
-    margin: 50px auto;
+.kkr-img {
+  display: block;
+  margin: 50px auto;
 }
 
 /* ABOUT-KURUKSHETRA */
 
-.about-nit-kkr{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+.about-nit-kkr {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/nit-kkr.jpg");
-    height: 100vh;
-    background-attachment: fixed;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
 /* ABOUT-KURUKSHETRA */
 
-.about-dept{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+.about-dept {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/E-Summit.jpg");
-    height: 100vh;
-    background-attachment: fixed;
+  height: 100vh;
+  background-attachment: fixed;
 }
