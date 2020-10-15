@@ -12,7 +12,9 @@ deployment:
     - /bin/cp papers.html $DEPLOYPATH
     - /bin/cp submissions.html $DEPLOYPATH
     - /bin/cp tracks.html $DEPLOYPATH
+    - /bin/cp contactUs.html $DEPLOYPATH
     - /bin/cp dates.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp send.php $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
