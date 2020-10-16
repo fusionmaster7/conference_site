@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
 
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css" />
-    <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css" />
+  <title></title>
 </head>
+
 <body>
 
-     <nav class="navbar navbar-container navbar-expand-lg navbar-light navbar-inverse">
+  <nav class="navbar navbar-container navbar-expand-lg navbar-light navbar-inverse">
     <a class="navbar-brand text-light" href="#">
       <h2>I3CS-2021</h4>
     </a>
@@ -35,7 +37,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="/organisers.html">Organising Committee</a>
             <a class="dropdown-item" href="/advisors.html">Advisory Committee</a>
-            <a class="dropdown-item" href="#">Student Members</a>
+            <a class="dropdown-item" href="/students.html">Student Members</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="/publication.html">Publication</a>
@@ -66,135 +68,146 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Contact Us</a>
+          <a class="nav-link text-light" href="/contactUs.html">Contact Us</a>
         </li>
       </ul>
     </div>
   </nav>
   <a class="side-button" style="color: white;" href="/submissions.html">SUBMIT PAPER NOW</a>
-    <div class="container" >
-        <!--Section heading-->
-        <div class="row text-white">
-            <div class="col-sm-12 col-md-12">
-                <h2 class="h1-responsive font-weight-bold text-center text-white contactHeading" >Contact us</h2>
-            </div>
-        </div>
-        <div class="row marginT4 marginB4">
-            <div class="col-md-2 ">
-                
-             </div>
-            <div class="col-md-10">
-                <div class="row">
-                    <div class="col-md-5 paddingT2 formS">
-                        <form id="contact-form" name="contact-form" action="send.php" method="POST">
-                            <div class="row text-white">
-                                <div class="col-sm-12 col-md-12">
-                                    <h3 class="h1-responsive font-weight-bold bg-success  text-center text-white queries" >Send your Queries</h3>
-                                </div>
-                            </div>
-                            <div class="row text-white">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="name" class="">Name</label>
-                                        <input type="text" id="name" name="name" class="form-control" required>
-        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row text-white">
-                               <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="email" class="">Email</label>
-                                        <input type="text" id="email" name="email" class="form-control" required>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="row text-white">
-                               <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="contact" class="">Contact</label>
-                                        <input type="phone" id="contact" name="contact" class="form-control" required>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="row text-white">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="name" class="">Organisation</label>
-                                        <input type="number" id="Organisation" name="Organisation" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="email" class="">City</label>
-                                        <input type="text" id="City" name="City" class="form-control" required>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row text-white">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="subject" class="">Subject</label>
-                                        <input type="text" id="subject" name="subject" class="form-control" required>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row text-white">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="message">Message</label>
-                                        <textarea type="text" id="message" name="message" rows="2" class="form-control" required></textarea>                               
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="text-center text-md-center marginT4 marginB4">
-                                      <input type="submit" name="submit" value=' send' class="btn btn-success btn-lg ">
-                                      <i class="fa fa-send-o text-white">
-                                      </i>
-                                    </div>
-                                </div>
-                            </div>                
-                    </div>
-                    <div class="col-md-5 text-center border-bottom CntRight"  >  
-                        <div class="row">
-                            <div class="col-md-12">
-                                    <img class="pat-img" src="./assets/Pic.jpg" />
-                                    <h5 class="content text-center">Dr. Kriti Bhushan<br />Organising Secretary</h5>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            <i class="fa fa-envelope mt-4 fa-2x"></i>
-                                            <h6>kritibhushan@nitkkr.ac.in</h6>
-                                        </li>
-                                    </ul>
-                                 </div>
-                        </div>
-                        </div>
-                   
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <!--Section heading-->
+    <div class="row text-white">
+      <div class="col-sm-12 col-md-12">
+        <h2 class="h1-responsive font-weight-bold text-center text-white contactHeading">Contact us</h2>
+      </div>
     </div>
-    <!--Section: Contact v.2-->
+    <div class="row marginT4 marginB4">
+      <div class="col-md-2 ">
 
-    <!--Footer goes here-->
-    <footer class="page-footer bg-dark text-center text-light">
-        &#169;Copyrights I3CS-2021. All Rights Reserved
-        <br />
-        Developed By Yogita, Hardik and Mangesh
-      </footer>
+      </div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md-5 paddingT2 formS">
+            <form id="contact-form" name="contact-form" action="send.php" method="POST">
+              <div class="row text-white">
+                <div class="col-sm-12 col-md-12">
+                  <h3 class="h1-responsive font-weight-bold bg-success  text-center text-white queries">Send your
+                    Queries</h3>
+                </div>
+              </div>
+              <div class="row text-white">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="name" class="">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
 
+                  </div>
+                </div>
+              </div>
+              <div class="row text-white">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="email" class="">Email</label>
+                    <input type="text" id="email" name="email" class="form-control" required>
 
+                  </div>
+                </div>
+              </div>
+              <div class="row text-white">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="contact" class="">Contact</label>
+                    <input type="phone" id="contact" name="contact" class="form-control" required>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="row text-white">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name" class="">Organisation</label>
+                    <input type="number" id="Organisation" name="Organisation" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email" class="">City</label>
+                    <input type="text" id="City" name="City" class="form-control" required>
+
+                  </div>
+                </div>
+              </div>
+              <div class="row text-white">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="subject" class="">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required>
+
+                  </div>
+                </div>
+              </div>
+              <div class="row text-white">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="text" id="message" name="message" rows="2" class="form-control" required></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="text-center text-md-center marginT4 marginB4">
+                  <input type="submit" name="submit" value=' send' class="btn btn-success btn-lg ">
+                  <i class="fa fa-send-o text-white">
+                  </i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 text-center border-bottom CntRight">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="pat-img" src="./assets/Pic.jpg" />
+                <h5 class="content text-center">Dr. Kriti Bhushan<br />Organising Secretary</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="fa fa-envelope mt-4 fa-2x"></i>
+                    <h6>kritibhushan@nitkkr.ac.in</h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Section: Contact v.2-->
+
+  <!--Footer goes here-->
+  <footer class="page-footer bg-dark text-center text-light">
+    &#169;Copyrights I3CS-2021. All Rights Reserved
+    <br />
+    Developed By Yogita, Hardik and Mangesh
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
 </body>
+
 </html>
