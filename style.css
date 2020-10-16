@@ -19,6 +19,7 @@
   -webkit-box-shadow: 10px -3px 6px -5px rgb(63, 63, 63);
   -moz-box-shadow: 10px -3px 6px -5px rgb(63, 63, 63);
   box-shadow: 10px -3px 6px -5px rgb(63, 63, 63);
+  z-index: 3;
 }
 /*HEADER*/
 .navbar-container {
@@ -134,7 +135,6 @@
 }
 
 .pub-card {
-  padding: 5px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -181,16 +181,6 @@
   height: 250px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.sec-row {
-  display: flex;
-  justify-content: center;
-}
-
-.sec-card {
-  margin: 0px auto;
-  padding: 10px;
 }
 
 .adv {
@@ -269,9 +259,8 @@ h4 {
 /* Contact Us   */
 
 .contactHeading {
-  background-color: darkcyan;
+  color: black;
   margin-top: 2%;
-  box-shadow: 6px 8px 12px 0px black;
   padding: 2%;
 }
 
@@ -285,10 +274,6 @@ h4 {
   padding-top: 2%;
 }
 
-.formS {
-  background-color: black;
-}
-
 .queries {
   margin-top: 4%;
   margin-bottom: 6%;
@@ -300,5 +285,4 @@ h4 {
 .CntRight {
   text-align: center;
   padding-top: 15%;
-  background-color: #31ec8d;
 }
