@@ -5,6 +5,7 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp advisors.html $DEPLOYPATH
     - /bin/cp organisers.html $DEPLOYPATH
+    - /bin/cp students.html $DEPLOYPATH
     - /bin/cp about-kkr.html $DEPLOYPATH
     - /bin/cp about-nit-kkr.html $DEPLOYPATH
     - /bin/cp about-dept.html $DEPLOYPATH
