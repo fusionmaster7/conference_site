@@ -134,7 +134,7 @@
 }
 
 .pub-card {
-  padding: 10px;
+  padding: 5px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -235,6 +235,13 @@
 .pub-content {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+}
+
+.pub-img {
+  width: 125px;
+  height: 125px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .track-topic {
