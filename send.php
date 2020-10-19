@@ -31,7 +31,7 @@ die();
 }
 
 $content="From: $name \nEmail: $email \nMessage: $message";
-$recipient = 'yogitasangwannit21@gmail.com';
+$recipient = 'santosh.cse@nitkkr.ac.in';
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
 echo '<script>alert("Email sent")</script>'; 
